@@ -30,3 +30,13 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+# Node.js Tools for Visual Studio
+node_modules/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+wwwroot/
+!wwwroot/css/site.css
+!wwwroot/css/theme-fluent.css
+!wwwroot/images/
+!wwwroot/favicon.ico
