@@ -34,7 +34,7 @@ Implement a Blazor component that wraps the DevExtreme Slider widget. The wrappe
 2. [DxSliderLabelSettings.razor](./BlazorSlider/Components/Slider/DxSliderLabelSettings.razor) and [DxSliderTooltipSettings.razor](./BlazorSlider/Components/Slider/DxSliderTooltipSettings.razor) configure slider label and tooltip settings.
 3. [DxSlider.razor.js](./BlazorSlider/Components/Slider/DxSlider.razor.js) binds the DevExtreme Slider component to the data model.
 4. [DxSlider.razor](./BlazorSlider/Components/Slider/DxSlider.razor) renders the Slider as follows:
-    * Declares a `CascadingValue` component and uses a `ChildContent` parameter to customize slider labels and tooltips via Blazor parameters:
+    * Declares a `CascadingValue` component and uses `ChildContent` to customize slider labels and tooltips using Blazor parameters:
         ```Razor
         <CascadingValue IsFixed="true" Value="sliderState">
             @ChildContent
