@@ -18,7 +18,6 @@ The example replicates the [DevExtreme jQuery Slider](https://js.devexpress.com/
 
 ![DevExtreme Slider in DevExpress Blazor App](sliders.png)
 
-
 ## Implementation Details
 
 ### Register DevExtreme Resources
