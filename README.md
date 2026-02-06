@@ -45,7 +45,7 @@ Implement a Blazor component that wraps the DevExtreme Slider widget. The wrappe
     * In the [OnParametersSetAsync](./BlazorSlider/Components/Slider/DxSlider.razor#L57-L64) lifecycle method, updates the internal model state and rerenders the slider component once Blazor parameters change.
     * In the [UpdateValueFromClient](./BlazorSlider/Components/Slider/DxSlider.razor#L85-L91) method, synchronizes the server-side state with slider client-side value changes.
 
-### Render the Blazor Component
+### Display a Blazor Component
 
 Use the wrapper as a standard Blazor component. This example adds the [DevExpress Blazor FormLayout](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxFormLayout) component to the [Index.razor](./BlazorSlider/Components/Pages/Index.razor) file and declares `DxSlider` objects within layout items to display various slider states and capabilities.
 
