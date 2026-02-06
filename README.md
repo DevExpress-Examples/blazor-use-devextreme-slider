@@ -24,7 +24,7 @@ The example replicates the [DevExtreme jQuery Slider](https://js.devexpress.com/
 
 DevExtreme widgets require the use of [DevExtreme scripts and stylesheets](https://js.devexpress.com/jQuery/Documentation/Guide/jQuery_Components/Add_DevExtreme_to_a_jQuery_Application/#Local_Files). We recommend that you use [npm](https://js.devexpress.com/jQuery/Documentation/Guide/Common/Distribution_Channels/#npm) to incorporate DevExtreme into the application.
 
-The DevExpress Blazor [Resource Manager](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager) automatically registers the DevExtreme script if your project includes the `DevExpress.Blazor` package. To apply the DevExtreme Fluent theme, add the [dx.fluent.blue.light.css](./BlazorSlider/wwwroot/css/dx.fluent.blue.light.css) file to the [wwwroot/css](./BlazorSlider/wwwroot/css/) folder and reference this stylesheet in the [Components/App.razor](./BlazorSlider/Components/App.razor) file.
+The DevExpress Blazor [Resource Manager](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager) automatically registers DevExtreme scripts if your project includes the `DevExpress.Blazor` package. To apply the DevExtreme Fluent theme, add the [dx.fluent.blue.light.css](./BlazorSlider/wwwroot/css/dx.fluent.blue.light.css) file to the [wwwroot/css](./BlazorSlider/wwwroot/css/) folder and reference this stylesheet in the [Components/App.razor](./BlazorSlider/Components/App.razor#L12) file.
 
 ### Implement a Wrapper
 
