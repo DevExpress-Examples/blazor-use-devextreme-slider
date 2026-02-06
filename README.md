@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Blazor - Use DevExtreme Slider in Blazor Applications
 
-This example adds the [DevExtreme Slider widget]() to a Blazor application. The example replicates the [DevExtreme jQuery Slider](https://js.devexpress.com/jQuery/Demos/WidgetsGallery/Demo/Slider/Overview/FluentBlueLight/) demo and showcases the following features and capabilities:
+This example adds a [DevExtreme Slider widget](https://js.devexpress.com/jQuery/Documentation/Guide/UI_Components/Slider/Overview/) to a Blazor application and showcases the following features and capabilities:
 
 * Min and max labels
 * Tooltip customization
