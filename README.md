@@ -41,7 +41,7 @@ Implement a Blazor component that wraps the DevExtreme Slider widget. The wrappe
             <div @ref="sliderElement"></div>
         </CascadingValue>
         ```
-    * In the `OnAfterRenderAsync` lifecycle method, calls the [LoadDxResources](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager.LoadDxResources(Microsoft.JSInterop.IJSRuntime)) method to force the `Resource Manager` to load all client scripts.
+    * In the [OnAfterRenderAsync](./BlazorSlider/Components/Slider/DxSlider.razor#L66-L72) lifecycle method, calls the [LoadDxResources](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager.LoadDxResources(Microsoft.JSInterop.IJSRuntime)) method to force the `Resource Manager` to load all client scripts.
     * In the [OnParametersSetAsync](./BlazorSlider/Components/Slider/DxSlider.razor#L57-L64) lifecycle method, updates the internal model state and rerenders the slider component once Blazor parameters change.
     * In the [UpdateValueFromClient](./BlazorSlider/Components/Slider/DxSlider.razor#L85-L91) method, synchronizes the server-side state with slider client-side value changes.
 
