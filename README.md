@@ -12,7 +12,7 @@ This example adds a [DevExtreme Slider widget](https://js.devexpress.com/jQuery/
 * Range highlight
 * Discrete steps
 * Disabled component state
-* Dynamic value changes
+* Dynamic value updates
 
 ![DevExtreme Slider in DevExpress Blazor App](sliders.png)
 
