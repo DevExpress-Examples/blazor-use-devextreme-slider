@@ -14,6 +14,8 @@ This example adds a [DevExtreme Slider widget](https://js.devexpress.com/jQuery/
 * Disabled component state
 * Dynamic value updates
 
+The example replicates the [DevExtreme jQuery Slider](https://js.devexpress.com/jQuery/Demos/WidgetsGallery/Demo/Slider/Overview/FluentBlueLight/) demo.
+
 ![DevExtreme Slider in DevExpress Blazor App](sliders.png)
 
 The DevExpress Blazor UI Component Library includes multiple DevExtreme-based components (for example, [DxHtmlEditor](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxHtmlEditor) or [DxMap](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxMap)). Refer to class descriptions for additional information.
