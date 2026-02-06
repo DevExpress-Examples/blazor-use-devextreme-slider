@@ -18,7 +18,6 @@ The example replicates the [DevExtreme jQuery Slider](https://js.devexpress.com/
 
 ![DevExtreme Slider in DevExpress Blazor App](sliders.png)
 
-The DevExpress Blazor UI Component Library includes multiple DevExtreme-based components (for example, [DxHtmlEditor](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxHtmlEditor) or [DxMap](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxMap)). Refer to class descriptions for additional information.
 
 ## Implementation Details
 
