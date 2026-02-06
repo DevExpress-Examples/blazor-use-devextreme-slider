@@ -28,7 +28,7 @@ The DevExpress Blazor [Resource Manager](https://docs.devexpress.com/Blazor/DevE
 
 ### Implement a Wrapper
 
-Implement a Blazor component that wraps the DevExtreme Slider widget. The wrapper consists of the following files (copy them to your application):
+Implement a Blazor component that wraps the DevExtreme Slider widget. The wrapper consists of the following files (copy them to your solution):
 
 1. [SliderState.cs](./BlazorSlider/Components/Slider/SliderState.cs) defines a data model that stores slider properties. The model is passed to razor components via cascading parameters to initialize slider states in their `OnInitialized` lifecycle methods.
 2. [DxSliderLabelSettings.razor](./BlazorSlider/Components/Slider/DxSliderLabelSettings.razor) and [DxSliderTooltipSettings.razor](./BlazorSlider/Components/Slider/DxSliderTooltipSettings.razor) configure slider label and tooltip settings.
