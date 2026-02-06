@@ -33,7 +33,7 @@ Implement a Blazor component that wraps the DevExtreme Slider widget. The wrappe
 1. [SliderState.cs](./BlazorSlider/Components/Slider/SliderState.cs) defines a data model that stores slider properties. The model is passed to razor components via cascading parameters to initialize slider states in their `OnInitialized` lifecycle methods.
 2. [DxSliderLabelSettings.razor](./BlazorSlider/Components/Slider/DxSliderLabelSettings.razor) and [DxSliderTooltipSettings.razor](./BlazorSlider/Components/Slider/DxSliderTooltipSettings.razor) configure slider label and tooltip settings.
 3. [DxSlider.razor.js](./BlazorSlider/Components/Slider/DxSlider.razor.js) binds the DevExtreme Slider component to the data model.
-4. [DxSlider.razor](./BlazorSlider/Components/Slider/DxSlider.razor) wraps and renders the Slider:
+4. [DxSlider.razor](./BlazorSlider/Components/Slider/DxSlider.razor) renders the Slider as follows:
     * Declares a `CascadingValue` component and uses a `ChildContent` parameter to customize slider labels and tooltips via Blazor parameters:
         ```Razor
         <CascadingValue IsFixed="true" Value="sliderState">
