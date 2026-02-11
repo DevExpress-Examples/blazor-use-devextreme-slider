@@ -6,7 +6,7 @@
 <!-- default badges end -->
 # Blazor - Use DevExtreme Slider in Blazor Applications
 
-This example adds a [DevExtreme Slider widget](https://js.devexpress.com/jQuery/Documentation/Guide/UI_Components/Slider/Overview/) to a Blazor application and showcases the following features and capabilities:
+This example adds a [DevExtreme Slider widget](https://js.devexpress.com/jQuery/Documentation/Guide/UI_Components/Slider/Overview/) to a Blazor application and highlights the following features and capabilities:
 
 * Min and max labels
 * Tooltip customization
@@ -43,8 +43,8 @@ Implement a Blazor component that wraps the DevExtreme Slider widget. The wrappe
         </CascadingValue>
         ```
     * In the [OnAfterRenderAsync](./BlazorSlider/Components/Slider/DxSlider.razor#L66-L72) lifecycle method, calls the [LoadDxResources](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager.LoadDxResources(Microsoft.JSInterop.IJSRuntime)) method to force the `Resource Manager` to load all client scripts.
-    * In the [OnParametersSetAsync](./BlazorSlider/Components/Slider/DxSlider.razor#L57-L64) lifecycle method, updates the internal model state and rerenders the slider component once Blazor parameters change.
-    * In the [UpdateValueFromClient](./BlazorSlider/Components/Slider/DxSlider.razor#L85-L91) method, synchronizes the server-side state with slider client-side value changes.
+    * In the [OnParametersSetAsync](./BlazorSlider/Components/Slider/DxSlider.razor#L57-L64) lifecycle method, updates the internal model state and re-renders the slider component once Blazor parameters change.
+    * In the [UpdateValueFromClient](./BlazorSlider/Components/Slider/DxSlider.razor#L85-L91) method, synchronizes server-side state with slider client-side value changes.
 
 ### Display a Blazor Component
 
